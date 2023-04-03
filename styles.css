@@ -1,0 +1,137 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #e5eabf;
+
+}
+
+#item2,
+#item3,
+#item4 {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 30px;
+    cursor: grab;
+
+}
+
+header>img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100px;
+    width: 300px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: #2a472a;
+}
+
+nav li,
+a {
+    display: inline-block;
+    margin: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.promotion {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: #2a472a;
+}
+
+.promotion:hover {
+    background-image: url(./falafel.jpg);
+    height: 100%;
+    width: 100%;
+    transform: rotateX(360deg);
+    transition: 1s ease;
+    color: transparent;
+    display: inline-block;
+}
+
+.info {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    background-color: hsla(120, 6%, 31%, .5);
+    border-radius: 10px;
+}
+
+.info>h2 {
+    flex-direction: column;
+    position: relative;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+fieldset {
+    margin: 20px;
+    align-items: flex;
+}
+
+fieldset>img {
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+input,
+textarea {
+    border-radius: 3px;
+}
+
+#info-label,
+#card-label {
+    margin-left: 10px;
+}
+
+.terms {
+    color: #2a472a;
+}
+
+#comments {
+    display: flex;
+    align-items: center;
+}
+
+#submit {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer img {
+    height: 50px;
+    width: 125x;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    font-size: small;
+    color: #2a472a;
+}
